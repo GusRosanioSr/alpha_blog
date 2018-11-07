@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   
   get 'other', to: 'pages#other'
+  
+  resources :articles
 
 
   # Example of regular route:
