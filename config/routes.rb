@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   
   get 'other', to: 'pages#other'
   
+  get 'new', to: 'artciles#new'
+  
   resources :articles
 
 
